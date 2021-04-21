@@ -1,6 +1,6 @@
 from Player import player
-class human:
+
+
+class human(player):
     def __init__(self):
         self.name = ''
-        self.score = 0
-        self.chosen_gesture = ''

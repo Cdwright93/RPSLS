@@ -1,5 +1,8 @@
-class computer:
+from Player import player
+
+
+class computer(player):
     def __init__(self):
-        self.name = "Computer"
+        self.name = 'computer'
         self.score = 0
         self.chosen_gesture = ''
