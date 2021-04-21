@@ -10,4 +10,4 @@ class player:
         if self.name == "Computer":
             return
         if self.name == '':
-            self.name = raw_input("Please type your name.")
+            self.name = input("Please type your name.")
