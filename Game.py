@@ -38,8 +38,8 @@ class game:
             print("player 2 wins!")
 
     def player_one_turn(self):
-        response = input(" 1: " + self.player_one.gestures[0] + " 2: " + self.player_one.gestures[1] + '3: ' +
-                         self.player_one.gestures[2] + ' 4: ' + self.player_one.gestures[3] + '5: ' +
+        response = input(" 1: " + self.player_one.gestures[0] + " 2: " + self.player_one.gestures[1] + ' 3: ' +
+                         self.player_one.gestures[2] + ' 4: ' + self.player_one.gestures[3] + ' 5: ' +
                          self.player_two.gestures[4])
         if response == "1":
             self.player_one.chosen_gesture = 0
@@ -54,7 +54,7 @@ class game:
 
     def player_two_turn(self):
         if self.player_two.name == 'player 2':
-            response = input("1: " + self.player_two.gestures[0] + "2: " + self.player_two.gestures[1] + ' 3: ' +
+            response = input("1: " + self.player_two.gestures[0] + " 2: " + self.player_two.gestures[1] + ' 3: ' +
                              self.player_two.gestures[2] + ' 4: ' + self.player_two.gestures[3] + ' 5: ' +
                              self.player_two.gestures[4])
             if response == "1":
